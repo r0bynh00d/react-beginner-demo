@@ -4,7 +4,7 @@
   "description": "A simple React app built from scratch... No create-react-app, No Redux",
   "main": "index.js",
   "scripts": {
-    "test": "exit 0"
+    "test": "jest --runInBand"
   },
   "repository": {
     "type": "git",
@@ -29,6 +29,7 @@
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.20.0",
-    "eslint-plugin-react-hooks": "^2.5.1"
+    "eslint-plugin-react-hooks": "^2.5.1",
+    "jest": "^26.0.1"
   }
 }
